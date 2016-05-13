@@ -25,8 +25,10 @@ public class Livro {
 	@JsonInclude(Include.NON_NULL)
 	private Autor autor;
 	
-	public Livro(String nome) {
+	public Livro(String nome, Autor autor, Date publicacao) {
 		this.nome = nome;
+		this.autor = autor;
+		this.publicacao = publicacao;
 	}
 	
 	public Livro(Livro livro, Long id) {
