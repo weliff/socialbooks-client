@@ -1,2 +1,2 @@
-# socialbooks-client-java
-Consumes socialbooks-api with Java.
+# socialbooks-client
+Consumes socialbooks-api with Java or Ajax.
